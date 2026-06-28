@@ -1,0 +1,13 @@
+
+public class Exp58_3 {
+
+	public static void main(String[] args) {
+		String[] pets = {"イヌ", "ネコ", "ハムスター"};
+		
+		for (String pet : pets) {
+			pet = "ペット";
+			System.out.println(pet);
+		}
+	}
+
+}

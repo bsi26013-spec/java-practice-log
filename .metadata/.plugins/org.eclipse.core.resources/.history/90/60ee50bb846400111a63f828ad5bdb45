@@ -1,0 +1,17 @@
+import java.util.Random;
+
+public class Ens48_challenge2 {
+	public static void main(String[] args) {
+		Random rand = new Random();
+		String[] gacha = {"UR", "SSR", "SSR", "SR", "SR", "SR", "SR", "R", "R", "R", "R", "R","N","N","N","N","N","N","N","N",};
+		System.out.println("---10連ガチャ---");
+		for (int i = 1; i <= 9; i++) {
+			int result = rand.nextInt(20);
+			System.out.println("1個目：" + gacha[result]);
+
+		}
+	
+	
+	
+	}
+}

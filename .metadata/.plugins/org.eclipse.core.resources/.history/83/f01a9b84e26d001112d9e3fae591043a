@@ -1,0 +1,21 @@
+
+public class DiscountCalculator {
+
+	public static void main(String[] args) {
+		String itemName = args[0];
+		int price = Integer.parseInt(args[1]);
+		int discountPercent = Integer.parseInt(args[2]);
+		
+		double discountRate = discountPercent;
+		double  discountAmount = price * discountRate;
+		
+		double finalPrice = price - discountAmount;
+		
+		System.out.println("商品名：" + itemName); 
+        System.out.println("商品の⾦額：" + price + "円"); 
+        System.out.println("割引率：" + discountPercent + "%"); 
+        System.out.println("割引額：" + discountAmount + "円"); 
+        System.out.println("割引後の⾦額：" + finalPrice + "円");
+	}
+
+}

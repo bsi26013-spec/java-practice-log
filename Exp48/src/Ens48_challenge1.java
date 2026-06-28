@@ -1,0 +1,13 @@
+
+public class Ens48_challenge1 {
+
+	public static void main(String[] args) {
+		char[] name = { 'ア', 'イ', 'カ', 'ス', 'メ' };
+		System.out.println("" + name[0] + name[1]);
+		System.out.println("" + name[0] + name[1] + name[3]);
+		System.out.println("" + name[1] + name[2]);
+		System.out.println("" + name[2] + name[4]);
+
+	}
+
+}
