@@ -1,0 +1,13 @@
+# Eclipse / IDE metadata
+.metadata/
+.settings/
+.classpath
+.project
+
+# Java build artifacts
+**/bin/
+**/out/
+*.class
+
+# Eclipse server runtime files
+Servers/
