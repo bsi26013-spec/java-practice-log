@@ -5,5 +5,9 @@ class ArrayNew {
         int[] nums = new int[5];
         System.out.println(nums[0]);
         System.out.println(nums[4]);
+        
+        for(int num : nums) {
+        		System.out.println(num);
+        }
     }
 }
