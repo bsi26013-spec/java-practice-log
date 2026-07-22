@@ -16,5 +16,7 @@ class BookSearch2 {
         if (!isFind) {
             System.out.println("お探しの本はありません");
         }
+
+        sys
     }
 }
